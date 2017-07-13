@@ -8,6 +8,8 @@ using System.Threading.Tasks;
  * Description: COMP123 Lesson09 Lab 24
  *  * version:0.3- modified SuperVilian class class
  *  * Version:0.4 - Implmented the SuperVillion class 
+ *  
+ *   GitHub Link: https://github.com/BishnuKhanal1/COMP123-s2017-Lesson9B-Lab24/commits/master
  */
 namespace COMP123_s2017_Lesson9B_Lab24
 {

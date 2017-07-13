@@ -6,6 +6,8 @@ using System.Text;
  * Date: July 13, 2017
  * Description: This is the Power class
  * Version:0.1 - Created the Power class
+ * 
+ *  GitHub Link: https://github.com/BishnuKhanal1/COMP123-s2017-Lesson9B-Lab24/commits/master
  */
 namespace COMP123_s2017_Lesson9B_Lab24
 {
