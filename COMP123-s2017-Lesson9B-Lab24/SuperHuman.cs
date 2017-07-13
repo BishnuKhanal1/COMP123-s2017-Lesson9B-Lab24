@@ -5,7 +5,7 @@ using System.Text;
 /* Name: Bishnu Khanal
  * Date: July 13, 2017
  * Description: This is the SuperHuman class
- * Version:0.4 - Added Override method and Displayskills Method to SuperHuman class            
+ * Version:0.4 - Added Override (ToString) method and Displayskills Method to SuperHuman class            
  */
 namespace COMP123_s2017_Lesson9B_Lab24
 {
@@ -65,6 +65,10 @@ namespace COMP123_s2017_Lesson9B_Lab24
                 Console.WriteLine("Power: " + power.Name + "Rank: " + power.Rank);
             }
         }
+        /// <summary>
+        /// Overridden the built-in ToString method
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             string outputstring = "";
@@ -79,6 +83,10 @@ namespace COMP123_s2017_Lesson9B_Lab24
             outputstring += "=======================================\n";
             return outputstring;
         }
+        /// <summary>
+        /// This is the Displayskill method
+        /// Needs to be implemented
+        /// </summary>
         public override void DisplaySkills()
         {
             Console.WriteLine("Not Implemented");

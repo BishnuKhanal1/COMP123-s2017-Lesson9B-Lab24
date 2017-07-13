@@ -12,7 +12,7 @@ namespace COMP123_s2017_Lesson9B_Lab24
     /// <summary>
     /// This is SuperHero class
     /// </summary>
-    public class SuperHero : SuperHuman
+    public class SuperHero : SuperHuman, IHasKarma
     {
         //Private fields
         private int _karma;
@@ -30,9 +30,17 @@ namespace COMP123_s2017_Lesson9B_Lab24
             }
         }
         //constructrors
-        public SuperHero(string name) : base(name)
+        /// <summary>
+        /// This is the main constructor for SuperHero class
+        /// It taked one argument-name(string)
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="karma"></param>
+       
+        public SuperHero(string name, int karma) 
+            : base(name)
         {
-
+            this.Karma = karma;
         }
         //private methods
 
