@@ -66,5 +66,23 @@ namespace COMP123_s2017_Lesson9B_Lab24
                 Console.WriteLine("Power: " + power.Name + "Rank: " + power.Rank);
             }
         }
+        public override string ToString()
+        {
+            string outputstring = "";
+            outputstring += "======================================\n";
+            outputstring += "SuperHuman Name: " + this.Name + "\n";
+            outputstring += "=======================================\n";
+            foreach (Power power in this.Powers)
+            {
+                outputstring += "Power: " + power.Name + "Rank: " + power.Rank + "\n";
+
+            }
+            outputstring += "=======================================\n";
+            return outputstring;
+        }
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("Not Implemented");
+        }
     }
 }
