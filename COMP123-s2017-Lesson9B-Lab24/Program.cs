@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 /* Name: Bishnu Khanal
  * Date: July 13, 2017
  * Description: COMP123 Lesson09 Lab 24
- * version:0.3- Used the ToString Method of the SuperHuman class
- * Version:0.4 - Implmented the SuperHero class 
+ *  * version:0.3- modified SuperVilian class class
+ *  * Version:0.4 - Implmented the SuperVillion class 
  */
 namespace COMP123_s2017_Lesson9B_Lab24
 {
@@ -23,13 +23,21 @@ namespace COMP123_s2017_Lesson9B_Lab24
             superHuman.Powers.Add(new Power("Invisibility", 30));
             Console.WriteLine(superHuman.ToString());
 
-            SuperHuman superHero = new SuperHero("Super Dude", 20);
+            Console.WriteLine("********* SUPER HERO *********");
+            SuperHero superHero = new SuperHero("Super Dude", 20);
 
             superHero.Powers.Add(new Power("Teleportation", 50));
             superHero.Powers.Add(new Power("Phasing", 40));
             superHero.Powers.Add(new Power("Invisibility", 30));
-            Console.WriteLine(superHuman.ToString());
+            Console.WriteLine(superHero.ToString());
 
+            Console.WriteLine("********* SUPER VALLIAN *********");
+            SuperHuman superVillian = new SuperVillian("Super Dude", 20);
+
+            superVillian.Powers.Add(new Power("Batman", 50));
+            superVillian.Powers.Add(new Power("Glactus", 40));
+            superVillian.Powers.Add(new Power("Gambit", 30));
+            Console.WriteLine(superVillian.ToString());
         }
     }
 }
