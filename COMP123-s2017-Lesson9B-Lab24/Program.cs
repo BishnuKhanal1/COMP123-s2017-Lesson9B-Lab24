@@ -29,6 +29,7 @@ namespace COMP123_s2017_Lesson9B_Lab24
             superHero.Powers.Add(new Power("Phasing", 40));
             superHero.Powers.Add(new Power("Invisibility", 30));
             Console.WriteLine(superHuman.ToString());
+
         }
     }
 }

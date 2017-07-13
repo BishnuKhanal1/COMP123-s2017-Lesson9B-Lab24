@@ -40,8 +40,7 @@ namespace COMP123_s2017_Lesson9B_Lab24
             this.Name = name;
         }
         //public abstracts methods
-        public void DisplaySkills()
-        {
-        }
+        public abstract void DisplaySkills();
+
     }
 }
