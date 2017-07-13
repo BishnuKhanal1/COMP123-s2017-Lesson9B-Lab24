@@ -5,8 +5,8 @@ using System.Text;
 /* Name: Bishnu Khanal
  * Date: July 13, 2017
  * Description: This is the SuperHuman class
- * Version:0.1 - Accessed abstract Human class from SuperHuman class
- *              -Added _initialized method to SuperHuman class
+ * Version:0.1 - Added AddPower class from SuperHuman class
+ *              -Added DisplayPower method to SuperHuman class
  */
 namespace COMP123_s2017_Lesson9B_Lab24
 {
@@ -55,6 +55,16 @@ namespace COMP123_s2017_Lesson9B_Lab24
         public void AddPower(string name, int rank)
         {
             this.Powers.Add(new Power(name, rank));
+        }
+        /// <summary>
+        /// This method displays each of the power listed in Power list
+        /// </summary>
+        public void DisplayPowers()
+        {
+            foreach (Power power in this.Powers)
+            {
+                Console.WriteLine("Power: " + power.Name + "Rank: " + power.Rank);
+            }
         }
     }
 }
