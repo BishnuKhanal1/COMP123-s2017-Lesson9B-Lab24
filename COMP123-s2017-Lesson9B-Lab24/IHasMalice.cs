@@ -5,7 +5,7 @@ using System.Text;
 /* Name: Bishnu Khanal
  * Date: July 13, 2017
  * Description: This is the IHasMalice Interface
- * Version:0.2 - Added IHasKarma Interface     
+ * Version:0.1 - Added IHasKarma Interface     
  */
 namespace COMP123_s2017_Lesson9B_Lab24
 {
