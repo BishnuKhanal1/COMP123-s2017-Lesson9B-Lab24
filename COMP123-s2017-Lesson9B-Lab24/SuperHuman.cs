@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 /* Name: Bishnu Khanal
- * Date: July 11, 2017
+ * Date: July 13, 2017
  * Description: This is the SuperHuman class
  * Version:0.1 - Accessed abstract Human class from SuperHuman class
  *              -Added _initialized method to SuperHuman class
  */
 namespace COMP123_s2017_Lesson9B_Lab24
 {
+    /// <summary>
+    /// This s the SuperHuman class
+    /// </summary>
     public class SuperHuman : Human
     {
         //Private instant variables
@@ -40,6 +43,18 @@ namespace COMP123_s2017_Lesson9B_Lab24
         private void _initialized()
         {
             this._powers = new List<Power>();//creates an empty list
+        }
+        //Public Methods
+
+        /// <summary>
+        /// This method adds a power to the power list
+        /// It takes two parameters- name(string)- rank(int) 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
+        public void AddPower(string name, int rank)
+        {
+            this.Powers.Add(new Power(name, rank));
         }
     }
 }

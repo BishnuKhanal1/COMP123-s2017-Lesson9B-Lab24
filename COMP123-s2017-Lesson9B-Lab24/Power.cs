@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 /* Name: Bishnu Khanal
- * Date: July 11, 2017
+ * Date: July 13, 2017
  * Description: This is the Power class
  * Version:0.1 - Created the Power class
  */
