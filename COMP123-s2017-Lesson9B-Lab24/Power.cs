@@ -9,7 +9,28 @@ using System.Text;
  */
 namespace COMP123_s2017_Lesson9B_Lab24
 {
+    /// <summary>
+    /// This is the Power class which will be used as a Date type
+    /// </summary>
+    
     public class Power
     {
+        //Public properties
+        public string Name { get; set; }
+        public int Rank { get; set; }
+
+        //Public properties
+
+        /// <summary>
+        /// This is a main constructor for the Power class
+        /// It takes two arguments - name(string) -rank(int)
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
+        public Power(string name, int rank)
+        {
+            this.Name = name;
+            this.Rank = rank;
+        }
     }
 }
