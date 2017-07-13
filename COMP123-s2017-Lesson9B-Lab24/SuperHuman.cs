@@ -11,5 +11,16 @@ namespace COMP123_s2017_Lesson9B_Lab24
 {
     public class SuperHuman
     {
+        //Private instant variables
+        private List<Power> _powers;
+        //Public properties
+        public List<Power> Powers
+        {
+            get
+            {
+                return this._powers;
+            }
+        }
+       
     }
 }
